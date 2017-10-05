@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="css.css">
+	
+</head>
+<body>
+	  	<h2>Вывод данных с помощью AJAX запроса</h2>
+  	<input type="button" value="Вывести данные" OnClick="ajax_get('https://cv-project-6fa7f.firebaseio.com/user.json', data)"> 
+  	
+	<h1 id="name"></h1>
+		<hr>
+	<div id="text"></div>
+ 	
+ 	<h2>Вывод данных с помощью filereader</h2> 
+ 	
+	<input type="file" id="fileInput">
+		
+	<div id="fileDisplayArea"></div>
+
+	
+	<script type="text/javascript" src="js/ajax.js"></script>
+	<script type="text/javascript" src="js/filereader.js"></script>
+</body>
+</html>
